@@ -1,4 +1,4 @@
-The objective of this step is to thoroughly understand the behavior of fibonacci function.
+
 
 Behavior is defined by inputs/output pairs.
 
@@ -6,6 +6,35 @@ Behavior is defined by inputs/output pairs.
 * new repo and readme is made
 
 <!-- Copy the docs for your function from Lodash into your readme. You'll find this either in source comments, or in their online docs. -->
+* code behaviour :
+The objective of this step is to thoroughly understand the behavior of fibonacci function.
+
+Arguments
+```js
+[number = ] (): argument length
+
+```
+
+returns
+(array): returns the array starting from 0  and adding the consecutive numbers if its number and greater than 0 . Other wise it will give a error message
+
+Example
+fibonacci(3);
+// [ 0, 1, 1 ]
+
+fibonacci('abc');
+// [ 0,1 ]
+fibonacci(4.5);
+
+fibonacci(true);
+'the request was made but it was not good'
+
+
+
+
+
+fibonacci(size)
+
 
 Complete the Input Analysis section of the README, tables work well for this.
 
