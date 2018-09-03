@@ -21,7 +21,7 @@ To achive the objective we will follow the following steps.
 6. Done! You have now 100% understood the behavior of your function. Time to move on and study the implementation
 ___
 
-* code behaviour :
+1. code behaviour :
 > The objective of this step is to thoroughly understand the behavior of fibonacci function.
 
 Arguments
@@ -30,10 +30,9 @@ Arguments
 
 ```
 returns
-```js 
+ 
 (array): returns the array starting from 0  and adding the consecutive numbers if its number and greater than 0 . Other wise it will give a error message.
 
-```
 
 Example
 ```js
@@ -50,19 +49,21 @@ fibonacci(true);
 ```
 ___
 
-* Input Analalysis
-|
+2. Input Analalysis  
 
+|input: as_argument  
+|---|  
+|not + integer|
+|neg int|
+|str|
+|string number|
+|decimal|
+|very big number|
 
-Create a whole lot of test cases in ./test/test-cases.js.
+3. Create a whole lot of test cases in ./test/test-cases.js.Be sure to test your test cases using the Repl.it in the Lodash docs.
 
+___
 
-Be sure to test your test cases using the Repl.it in the Lodash docs.
-
-
-The template indicates how you should structure your test cases.
-
-
-Copy paste the source for your function into ./0-___.js. Be sure to line up the require statements.
+5. Copy paste the source for your function into ./0-fibonacc.js. Be sure to line up the require statements.
 Rename the 'require's in 0's testing file & run your test cases on the original Lodash function. If any fail you are wrong, not Lodash. Fix your test cases.
 Done! You have now 100% understood the behavior of your function. Time to move on and study the implementation.
